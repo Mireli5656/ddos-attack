@@ -28,7 +28,27 @@ Clone or transfer the script into your working directory, then make sure depende
 ```bash
 # Update package repositories and install python if not present
 pkg update && pkg install python -y
-
 # Verify python installation
 python3 --version
+
+💻 Usage Instructions 
+
+​Execute the script from your terminal providing the target IP, target port, and desired thread count:python3 ai_engine.py <target_ip> <port> <threads>
+
+📊 Live Metrics & Strategy Weights 
+
+​The engine renders a real-time terminal output displaying operational stats and current multi-armed bandit weights:
+
+
+
+=== AI ADAPTIVE BYPASS ENGINE ===
+Total Operations : 142580
+Bypassed / Active: 139102
+Blocked / Refused: 3478
+
+Adaptive Strategy Weights:
+ - random_cache_bypass     : 8.412
+ - chunked_encoding_spoof  : 6.204
+ - user_agent_rotation     : 7.915
+ - pipeline_flooding       : 9.241
 

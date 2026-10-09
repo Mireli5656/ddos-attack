@@ -25,7 +25,6 @@ An advanced, high-concurrency low-level socket stressing core equipped with an *
 
 Clone or transfer the script into your working directory, then make sure dependencies are natively satisfied (uses Python standard library only for maximum portability).
 
-```bash
 # Update package repositories and install python if not present
 pkg update && pkg install python -y
 # Verify python installation

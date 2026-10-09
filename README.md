@@ -30,15 +30,14 @@ pkg update && pkg install python -y
 # Verify python installation
 python3 --version
 
-💻 Usage Instructions 
+# 💻 Usage Instructions 
 
-​Execute the script from your terminal providing the target IP, target port, and desired thread count:python3 ai_engine.py <target_ip> <port> <threads>
+​Execute the script from your terminal providing the target IP, target port, and desired thread count:
+python3 ai_engine.py <target_ip> <port> <threads>
 
-📊 Live Metrics & Strategy Weights 
+# 📊 Live Metrics & Strategy Weights 
 
 ​The engine renders a real-time terminal output displaying operational stats and current multi-armed bandit weights:
-
-
 
 === AI ADAPTIVE BYPASS ENGINE ===
 Total Operations : 142580
